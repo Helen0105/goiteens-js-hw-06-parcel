@@ -1,4 +1,27 @@
-h1 {
-  color: brown;
+.list {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 21px;
+  list-style: none;
+  display: flex;
+}
+
+.card {
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid #4a7c44;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  width: calc(25% - 15px);
+  padding: 15px;
+  display: flex;
+}
+
+.card-image {
+  border-radius: 8px;
+  width: 100%;
+  height: 300px;
 }
 /*# sourceMappingURL=goiteens-js-hw-06-parcel.2cdaf7bc.css.map */
